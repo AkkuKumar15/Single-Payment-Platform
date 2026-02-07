@@ -76,7 +76,7 @@ function renderCarts(carts) {
     input.placeholder = "--.--";
     input.style.width = "90px";
 
-    if (cart.subtotal) {
+    if (cart.subtotal !== null && cart.subtotal !== undefined) {
       input.value = cart.subtotal;
       total += parseFloat(cart.subtotal);
     }
@@ -122,7 +122,7 @@ function renderCarts(carts) {
       chrome.tabs.create({ url: cart.checkoutUrl });
     });
 
-    container.appendChild(title);
+    // container.appendChild(title);
     container.appendChild(priceRow);
     container.appendChild(link);
 
