@@ -32,6 +32,16 @@ Single Payment Platform is intentionally simple and human-in-the-loop. Prices ar
 
 ---
 
+## How to use
+
+1. Saving a cart: When on the "cart" page of an online shop, simply press the extension in the top right and click "Save this cart." This will save the current URL and then allow you to enter in the total price. As you add more carts and prices, the extension will keep track of the total price.
+
+2. Pay all: Once you have added all the things you've wanted, you can press "Pay all," which will automatically open up every cart you've saved. This allows you to easily pay for each cart at the end once you know the full price of your entire shopping experience.
+
+3. Removing carts: To remove a single cart, simply press the red "x" to the right of it. Or, if you want to remove all carts at once (for example, when you're done shopping), simply press "Clear all carts" at the bottom. Note that there is currently no "undo" if you remove carts, so be careful!
+
+---
+
 ## Privacy & permissions
 
 - No accounts
@@ -39,10 +49,6 @@ Single Payment Platform is intentionally simple and human-in-the-loop. Prices ar
 - No ads
 - No remote code execution
 - No data sharing
-
-Permissions are limited to:
-- **Storage** – to save carts locally
-- **Tabs** – to open saved cart URLs on demand
 
 ---
 
